@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.TasksTest" time="0.043" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.TasksTest" time="0.061" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\FC13~1\AppData\Local\Temp\surefire17108094679237218536\surefirebooter8356483048608848016.jar C:\Users\Гыук\AppData\Local\Temp\surefire17108094679237218536 2023-03-22T04-17-37_436-jvmRun1 surefire43030677490183673tmp surefire_014343121245990838676tmp"/>
+    <property name="sun.java.command" value="C:\Users\FC13~1\AppData\Local\Temp\surefire15416123422508515347\surefirebooter17738750534694650378.jar C:\Users\Гыук\AppData\Local\Temp\surefire15416123422508515347 2023-03-24T20-43-21_253-jvmRun1 surefire1375236814955010427tmp surefire_0397402499709130126tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\JavaHomework\JavaHomework12\target\test-classes;D:\JavaHomework\JavaHomework12\target\classes;C:\Users\Гыук\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.2\junit-jupiter-5.4.2.jar;C:\Users\Гыук\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\Гыук\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Гыук\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Гыук\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\Гыук\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.2\junit-jupiter-params-5.4.2.jar;C:\Users\Гыук\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\Гыук\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\Гыук\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Гыук\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.28\mockito-junit-jupiter-3.6.28.jar;C:\Users\Гыук\.m2\repository\org\mockito\mockito-core\3.6.28\mockito-core-3.6.28.jar;C:\Users\Гыук\.m2\repository\net\bytebuddy\byte-buddy\1.10.18\byte-buddy-1.10.18.jar;C:\Users\Гыук\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.18\byte-buddy-agent-1.10.18.jar;C:\Users\Гыук\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\FC13~1\AppData\Local\Temp\surefire17108094679237218536\surefirebooter8356483048608848016.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FC13~1\AppData\Local\Temp\surefire15416123422508515347\surefirebooter17738750534694650378.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8"/>
@@ -61,8 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldFindInMeetingProject" classname="ru.netology.TasksTest" time="0.029"/>
-  <testcase name="shouldFindInEpic" classname="ru.netology.TasksTest" time="0"/>
-  <testcase name="shouldFindInMeetingTopic" classname="ru.netology.TasksTest" time="0"/>
-  <testcase name="shouldFindInSimpleTask" classname="ru.netology.TasksTest" time="0.002"/>
+  <testcase name="shouldFindInMeetingProject" classname="ru.netology.TasksTest" time="0.043"/>
+  <testcase name="shouldFindInEpic" classname="ru.netology.TasksTest" time="0.001"/>
+  <testcase name="shouldFindInMeetingTopic" classname="ru.netology.TasksTest" time="0.001"/>
+  <testcase name="shouldFindInSimpleTask" classname="ru.netology.TasksTest" time="0.001"/>
 </testsuite>

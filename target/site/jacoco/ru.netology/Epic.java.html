@@ -15,10 +15,14 @@ public class Epic extends Task {
     }
     @Override
     public boolean matches(String query) {
-<span class="fc bfc" id="L18" title="All 2 branches covered.">        if (Arrays.asList(subtasks).contains(query)) {</span>
-<span class="fc" id="L19">            return true;</span>
-        }
-<span class="fc" id="L21">        return false;</span>
+<span class="fc bfc" id="L18" title="All 2 branches covered.">       for (int i = 0; i &lt; subtasks.length; i++) {</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">           if (subtasks[i].contains(query)){</span>
+<span class="fc" id="L20">               return true;</span>
+           }
+       }
+<span class="fc" id="L23">       return false;</span>
     }
 }
+
+
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

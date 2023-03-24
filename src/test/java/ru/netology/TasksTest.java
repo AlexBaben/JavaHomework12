@@ -44,7 +44,7 @@ public class TasksTest {
         Epic epic = new Epic(55, new String[]{"Проснуться", "Потянуться"});
 
         boolean expected = true;
-        boolean actual = epic.matches("Проснуться");
+        boolean actual = epic.matches("Потянуться");
         Assertions.assertEquals(expected,actual);
     }
 }
